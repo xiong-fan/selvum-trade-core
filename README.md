@@ -1,14 +1,11 @@
-# CoinExchange 新现货撮合链路架构说明
-## 兼 README / 面试讲解 / 本地闭环验证手册
+# 现货撮合链路架构说明
 
 > 这份文档只讲当前仓库里的**新现货撮合链路**：`cloud -> wallet -> matching-core-service -> exchange-api -> market`。  
 > 不把老 `exchange` / `CoinTrader` 主链路混进主线，只在对比时顺带提到。
 
 ---
-
+c
 ## 1. 这份文档解决什么问题
-
-这份文档不是源码抄录，而是要把下面几件事一次讲清楚：
 
 1. 这套新撮合架构整体怎么工作。
 2. MySQL、MongoDB、Kafka 在整个项目里各承担什么角色。
