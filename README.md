@@ -1,7 +1,6 @@
 # 现货撮合链路架构说明
 
 > 这份文档只讲当前仓库里的**新现货撮合链路**：`cloud -> wallet -> matching-core-service -> exchange-api -> market`。  
-> 不把老 `exchange` / `CoinTrader` 主链路混进主线，只在对比时顺带提到。
 
 ---
 
